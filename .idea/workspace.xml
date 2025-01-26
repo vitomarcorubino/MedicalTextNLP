@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d1399a2-2ce3-4362-bef3-10a76b3b8104" name="Changes" comment="Updated DDL; Added TF-IDF">
+      <change beforePath="$PROJECT_DIR$/medicalTextNLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/medicalTextNLP.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;clauchiu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vitomarcorubino/MedicalTextNLP&quot;,
+    &quot;accountId&quot;: &quot;e9477b4a-c6a5-4c16-bca8-ebfae1751391&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2rlPfwGnjFC08GiNjTlWCJnxSyQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d1399a2-2ce3-4362-bef3-10a76b3b8104" name="Changes" comment="" />
+      <created>1737130794276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737130794276</updated>
+      <workItem from="1737130795381" duration="7983000" />
+      <workItem from="1737188849794" duration="3056000" />
+      <workItem from="1737277132720" duration="6402000" />
+      <workItem from="1737303515408" duration="2756000" />
+      <workItem from="1737306411093" duration="1160000" />
+      <workItem from="1737311843657" duration="3637000" />
+      <workItem from="1737365233171" duration="867000" />
+      <workItem from="1737392082860" duration="2650000" />
+      <workItem from="1737453164836" duration="8025000" />
+      <workItem from="1737545417364" duration="15775000" />
+      <workItem from="1737577687313" duration="676000" />
+      <workItem from="1737579121687" duration="1385000" />
+      <workItem from="1737580572185" duration="2437000" />
+      <workItem from="1737583035719" duration="1138000" />
+      <workItem from="1737584972515" duration="634000" />
+      <workItem from="1737624271663" duration="5782000" />
+      <workItem from="1737811429362" duration="2147000" />
+      <workItem from="1737823343997" duration="5906000" />
+      <workItem from="1737880610516" duration="8102000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changed dataset to train.dat;&#10;Lemmatization">
+      <option name="closed" value="true" />
+      <created>1737138092031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737138092031</updated>
+    </task>
+    <task id="LOCAL-00002" summary="POS tagging">
+      <option name="closed" value="true" />
+      <created>1737191707124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737191707124</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deep parsing">
+      <option name="closed" value="true" />
+      <created>1737307549850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737307549850</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Entity extraction">
+      <option name="closed" value="true" />
+      <created>1737315493184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737315493184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented lexical analysis with spaCy;&#10;Implemented file saving for each step">
+      <option name="closed" value="true" />
+      <created>1737584155424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737584155424</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemented lexical analysis with spaCy;&#10;Implemented file saving for each step">
+      <option name="closed" value="true" />
+      <created>1737585131715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737585131715</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated DDL">
+      <option name="closed" value="true" />
+      <created>1737886757986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737886757986</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated DDL; Added TF-IDF">
+      <option name="closed" value="true" />
+      <created>1737889164236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737889164236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed dataset to train.dat;&#10;Lemmatization" />
+    <MESSAGE value="POS tagging" />
+    <MESSAGE value="Deep parsing" />
+    <MESSAGE value="Entity extraction" />
+    <MESSAGE value="Implemented lexical analysis with spaCy;&#10;Implemented file saving for each step" />
+    <MESSAGE value="Updated DDL" />
+    <MESSAGE value="Updated DDL; Added TF-IDF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated DDL; Added TF-IDF" />
+  </component>
+</project>
