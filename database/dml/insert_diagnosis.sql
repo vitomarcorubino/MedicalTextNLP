@@ -1,1930 +1,368 @@
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'coronary' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'survival' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'coronary' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'survival' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'SRMD' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acid' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'SRMD' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acid' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'disease' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'serum' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'disease' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pre-S1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'disease' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'serum' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'disease' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'disease' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'developing' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsy' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'FNAB' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'FNAB' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'IC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'FNAB' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'prone' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'angiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'prone' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'angiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Immunohistochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'multidrug' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'multidrug' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'resistance' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunohistochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'epitopes' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunostaining' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Pgp' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'examination' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'examination' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CRP' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'examination' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'meningitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'examination' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'tumor' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'tumor' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'tumor' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'tumor' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'blunt' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CT' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'trauma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CT' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'blunt' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CT' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'trauma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'CT' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'assault' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Score' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'miscarriage' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'defects' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'anencephaly' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'encephalocele' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'SPF' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Ki67' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'SPF' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Ki67' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Ki67' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'SPF' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'proliferative' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'tumors' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'MTC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'pheochromocytomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'tumors' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'MTC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'pheochromocytomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'tumors' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'MTC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'pheochromocytomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'D10Z1' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'tumors' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'RBP3' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'MTC' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'RBP3' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'pheochromocytomas' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'RBP3' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'valve' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'gradient' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'aortography' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'valve' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'gradient' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'valve' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'aortic' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'gradient' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'PTCL' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunostaining' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'PTCL' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = '3' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'PTCL' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = '3' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'hepatitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'formation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cirrhosis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'formation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'hepatitis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'formation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cirrhosis' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'formation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'neoplasms' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'cytokeratin' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'neoplasms' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'cytokeratin' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'ventricular' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'ventricular' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'ventricular' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'ventricular' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'CHF' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'death' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'colon' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'colon' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'colon' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'FAP' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'FAP' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'genetic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'colon' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'colon' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cancer' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'colon' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'strokes' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'neurologic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'inflammation' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Histologically' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'hypertensive' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'K+' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'hypertensive' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'K+' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'hypertension' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'K+' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'AMI' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiogram' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'plaques' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'Ubiquitin' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'plaques' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunohistochemically' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = '-' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = '-' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cholangiocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'survival' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cholangiocarcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'survival' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'bacterial' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'radiologic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'carcinoma' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pathologic' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'echograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'echograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'separation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'separation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'echograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'echograms' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'separation' LIMIT 1)
-        );
-INSERT INTO DIAGNOSIS (diseaseID, diagnosticTestID)
-        VALUES (
-            (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' LIMIT 1),
-            (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'separation' LIMIT 1)
-        );
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ibr5'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'serum'),
+    (SELECT id FROM DISEASES WHERE name = 'disease' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'iron'),
+    (SELECT id FROM DISEASES WHERE name = 'akathisia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunostaining'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pgp'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'k+'),
+    (SELECT id FROM DISEASES WHERE name = 'hypertension' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'mean'),
+    (SELECT id FROM DISEASES WHERE name = 'hypertension' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ventricular'),
+    (SELECT id FROM DISEASES WHERE name = 'ventricular' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'plasma'),
+    (SELECT id FROM DISEASES WHERE name = 'akathisia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'radioimmunoassay'),
+    (SELECT id FROM DISEASES WHERE name = 'pregnancy' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'rbp3'),
+    (SELECT id FROM DISEASES WHERE name = 'tumors' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'circulating'),
+    (SELECT id FROM DISEASES WHERE name = 'pregnancy' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'examination'),
+    (SELECT id FROM DISEASES WHERE name = 'meningitis' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunostaining'),
+    (SELECT id FROM DISEASES WHERE name = 'ptcl' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'phosphocreatine'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'crp'),
+    (SELECT id FROM DISEASES WHERE name = 'meningitis' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical'),
+    (SELECT id FROM DISEASES WHERE name = 'defects' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'biopsies'),
+    (SELECT id FROM DISEASES WHERE name = 'esophagitis' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pathologic'),
+    (SELECT id FROM DISEASES WHERE name = 'carcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'miscarriage' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical'),
+    (SELECT id FROM DISEASES WHERE name = 'anencephaly' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'neurologic'),
+    (SELECT id FROM DISEASES WHERE name = 'strokes' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'd10z1'),
+    (SELECT id FROM DISEASES WHERE name = 'mtc' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'radiologic'),
+    (SELECT id FROM DISEASES WHERE name = 'bacterial' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = '-'),
+    (SELECT id FROM DISEASES WHERE name = 'carcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'tumor'),
+    (SELECT id FROM DISEASES WHERE name = 'tumor' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'prognosis'),
+    (SELECT id FROM DISEASES WHERE name = 'seminoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'adhesion'),
+    (SELECT id FROM DISEASES WHERE name = 'glomerulonephritis' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'in'),
+    (SELECT id FROM DISEASES WHERE name = 'emphysema' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'valve'),
+    (SELECT id FROM DISEASES WHERE name = 'aortic' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'encephalocele' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'echograms'),
+    (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'angiography'),
+    (SELECT id FROM DISEASES WHERE name = 'angina' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'metabolic'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'd10z1'),
+    (SELECT id FROM DISEASES WHERE name = 'tumors' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pyruvate'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ubiquitin'),
+    (SELECT id FROM DISEASES WHERE name = 'plaques' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'defects' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'akathisia'),
+    (SELECT id FROM DISEASES WHERE name = 'akathisia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'lts'),
+    (SELECT id FROM DISEASES WHERE name = 'gastritis' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical'),
+    (SELECT id FROM DISEASES WHERE name = 'encephalocele' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'miscarriage' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ferritin'),
+    (SELECT id FROM DISEASES WHERE name = 'akathisia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'radioimmunoassay'),
+    (SELECT id FROM DISEASES WHERE name = 'hypertension' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'epitopes'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'anencephaly' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunohistochemically'),
+    (SELECT id FROM DISEASES WHERE name = 'plaques' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunohistochemical'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'in'),
+    (SELECT id FROM DISEASES WHERE name = 'cirrhosis' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'micromanometry'),
+    (SELECT id FROM DISEASES WHERE name = 'dcm' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios'),
+    (SELECT id FROM DISEASES WHERE name = 'encephalocele' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'multidrug'),
+    (SELECT id FROM DISEASES WHERE name = 'resistance' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'rbp3'),
+    (SELECT id FROM DISEASES WHERE name = 'mtc' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'defects' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'rbp3'),
+    (SELECT id FROM DISEASES WHERE name = 'pheochromocytomas' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ltb4'),
+    (SELECT id FROM DISEASES WHERE name = 'gastritis' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'gastroscopy'),
+    (SELECT id FROM DISEASES WHERE name = 'non-hodgkin' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'spf'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pgp'),
+    (SELECT id FROM DISEASES WHERE name = 'resistance' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios'),
+    (SELECT id FROM DISEASES WHERE name = 'miscarriage' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'cytokeratin'),
+    (SELECT id FROM DISEASES WHERE name = 'neoplasms' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'glycogen'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'aortography'),
+    (SELECT id FROM DISEASES WHERE name = 'aortic' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'butyrylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'anencephaly' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'separation'),
+    (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'circulating'),
+    (SELECT id FROM DISEASES WHERE name = 'hypertension' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'segment'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'of'),
+    (SELECT id FROM DISEASES WHERE name = 'ventricular' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios'),
+    (SELECT id FROM DISEASES WHERE name = 'defects' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'angioscopy'),
+    (SELECT id FROM DISEASES WHERE name = 'angina' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'electrocardiograms'),
+    (SELECT id FROM DISEASES WHERE name = 'cardiomyopathy' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'formation'),
+    (SELECT id FROM DISEASES WHERE name = 'hepatitis' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ultrasound'),
+    (SELECT id FROM DISEASES WHERE name = 'lesions' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'pre-s1'),
+    (SELECT id FROM DISEASES WHERE name = 'disease' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'lactate'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'liver'),
+    (SELECT id FROM DISEASES WHERE name = 'emphysema' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = '3'),
+    (SELECT id FROM DISEASES WHERE name = 'ptcl' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ratios'),
+    (SELECT id FROM DISEASES WHERE name = 'anencephaly' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'gastroscopy'),
+    (SELECT id FROM DISEASES WHERE name = 'lymphoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'd10z1'),
+    (SELECT id FROM DISEASES WHERE name = 'pheochromocytomas' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ki67'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'immunochemical'),
+    (SELECT id FROM DISEASES WHERE name = 'miscarriage' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'formation'),
+    (SELECT id FROM DISEASES WHERE name = 'cirrhosis' AND condition = 'digestive system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'proliferative'),
+    (SELECT id FROM DISEASES WHERE name = 'adenocarcinomas' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'c-myc'),
+    (SELECT id FROM DISEASES WHERE name = 'carcinoma' AND condition = 'neoplasm')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'fam'),
+    (SELECT id FROM DISEASES WHERE name = 'ischemia' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'gradient'),
+    (SELECT id FROM DISEASES WHERE name = 'aortic' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'acetylcholinesterase'),
+    (SELECT id FROM DISEASES WHERE name = 'encephalocele' AND condition = 'nervous system disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'ventriculography'),
+    (SELECT id FROM DISEASES WHERE name = 'dcm' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'length'),
+    (SELECT id FROM DISEASES WHERE name = 'ventricular' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'segment'),
+    (SELECT id FROM DISEASES WHERE name = 'myocardial' AND condition = 'cardiovascular disease')
+);
+INSERT INTO DIAGNOSIS (diagnostic_test_id, disease_id) VALUES (
+    (SELECT id FROM DIAGNOSTIC_TESTS WHERE name = 'k+'),
+    (SELECT id FROM DISEASES WHERE name = 'hypertensive' AND condition = 'cardiovascular disease')
+);
